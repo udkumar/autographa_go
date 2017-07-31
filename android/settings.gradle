@@ -1,0 +1,3 @@
+rootProject.name = 'autographa_go'
+
+include ':app'
