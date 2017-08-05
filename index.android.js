@@ -11,8 +11,13 @@ import {
   Text,
   View
 } from 'react-native';
+import SplashScreen from 'react-native-splash-screen'
+
 
 export default class autographa_go extends Component {
+  componentDidMount() {
+        SplashScreen.hide();
+  }
   render() {
     return (
       <View style={styles.container}>
