@@ -1,3 +1,4 @@
 rootProject.name = 'autographa_go'
-
+include ':react-native-splash-screen'
+project(':react-native-splash-screen').projectDir = new File(rootProject.projectDir, '../splash-screen/android')
 include ':app'
